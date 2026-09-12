@@ -13,7 +13,7 @@ def save_shipment(origin, destination, route, distance, eta, risk):
     (origin, destination, route, distance, eta, risk, shipment_date)
 
     VALUES (?, ?, ?, ?, ?, ?, ?)
-
+    
     """, (
 
         origin,
